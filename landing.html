@@ -1,11 +1,485 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vedant's Personal Portfolio</title>
+    <link rel="stylesheet" href="./resources/bootstrap.min.css">
+    <link rel="stylesheet" href="landing.css">
 </head>
+
 <body>
-    
+    <div class="navbar-container container">
+        <nav class="navbar bg-body-light fixed-top" id="navbar-main">
+            <div class="container-fluid p-3">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end p-3" data-bs-scroll="true" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Vedant's Personal Page</h5>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="nav nav-underline flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#technical-skills">Technical Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#thesis">Thesis</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#professional-xp">Professional experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#internships">Internships</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects-papers">Projects & Papers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="main mb-5 container" data-bs-spy="scroll" data-bs-target="#navbar-main" data-bs-root-margin="0px 0px -40%">
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-4 align-self-center">
+                <img class="profile-img" src="./resources/profile.png" alt="Vedant's profile picture">
+            </div>
+            <div class="col-md-6">
+                <p>
+                <div class="display-6">Hey there!</div>
+                <div class="display-3">I'm Vedant Nandoskar</div>
+                </p>
+                <p class="lead">
+                    I am pursuing my <i>Master's degree in Computer Science from University of Illinois at Chicago</i>.
+                    I am originally from Mumbai, India and currently reside in Chicago, IL. I bring with myself a vast 
+                    amount of cultural diversity and ambition. <br>
+                    My interests lie in the field of Human Computer Interaction and I aim to work towards making
+                    interfaces more intuitive, more accessible, and more inclusive.
+                </p>
+                <p class="lead">
+                    I have a Bachelor's degree in Computer Science and have professional experience working as in
+                    the frontend development department for more than two years.
+                </p>
+                <p class="lead">
+                    Besides work and study, I like to paint, play soccer, pluck the strings on my guitar, read books,
+                    and gaze at the stars.
+                </p>
+                <p class="lead">
+                    Reach out to me at <br>
+                    <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="mailto:vedant.nandoskar@gmail.com" target="_blank">
+                        vedant[dot]nandoskar[at]gmail[dot]com
+                    </a> <br>
+                    <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.linkedin.com/in/vedant-nandoskar-692824169/" target="_blank">
+                        Linkedin
+                    </a> <br>
+                    <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.github.com/Vedant1202/" target="_blank">
+                        Github
+                    </a> <br>
+                    <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="./resources/Vedant-Nandoskar-Resume.pdf" target="_blank">
+                        Resume
+                    </a> <br>
+                </p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row mt-5" id="technical-skills">
+            <div class="col-1 mt-5"></div>
+            <div class="col-4 mt-5 text-center">
+                <div class="display-5 pt-3">Techinical skills</div>
+            </div>
+            <div class="col-6 mt-5">
+                <p class="lead">
+                    <div class="fs-4">Programming languages</div>
+                    <p class="lead">
+                        Python, JavaScript, TypeScript, HTML, CSS, Java, C/C++.
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Front-end frameworks</div>
+                    <p class="lead">
+                        ReactJS, VueJS
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Back-end frameworks</div>
+                    <p class="lead">
+                        NodeJS, Flask, Django
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Data science</div>
+                    <p class="lead">
+                        Machine Learning, Deep learning, Computer Vision, Natural Language Processing, Data visualization, Data processing
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Databases</div>
+                    <p class="lead">
+                        MongoDB, MySQL, PostgreSQL, Redis
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Cloud computing</div>
+                    <p class="lead">
+                        Amazon Web Services, Google Cloud Platform
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Virtual Reality</div>
+                    <p class="lead">
+                        Unity, Meta Quest 2, Microsoft Hololens 2
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Microcomputers</div>
+                    <p class="lead">
+                        Raspberry Pi, Arduino
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">UI and Graphic design</div>
+                    <p class="lead">
+                        Adobe XD, Figma, Adobe Illustrator, AutoCAD, Blender
+                    </p>
+                </p>
+            </div>
+            <div class="col-1 mt-5"></div>
+        </div>
+        <div class="row mt-5" id="education">
+            <div class="col-1 mt-5"></div>
+            <div class="col-4 mt-5 text-center">
+                <div class="display-5 pt-3">Education</div>
+            </div>
+            <div class="col-6 mt-5">
+                <p class="lead">
+                    <div class="fs-4">University of Illinois, Chicago, USA</div>
+                    <p class="lead">
+                        <i>Aug 2023 - Present</i> <br>
+                        Pursuing Masters of Science in Computer Science
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Vidyalankar Institute of Technology, Mumbai, India </div>
+                    <p class="lead">
+                        <i>Aug 2017 - May 2021</i> <br>
+                        Secured Bachelor of Engineering in Information Technology with CGPA 8.26/10
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Swami Paramhans Junior College, Mumbai, India</div>
+                    <p class="lead">
+                        <i>Class of 2017</i> <br>
+                        Secured 82.92% in Higher Secondary School Certificate Examination <br>(post high school)
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Swami Vivekanand High School, Mumbai, India</div>
+                    <p class="lead">
+                        <i>Class of 2015</i> <br>
+                        Secured 92.60% in Secondary School Certificate Examination <br>(high school)
+                    </p>
+                </p>
+            </div>
+            <div class="col-1 mt-5"></div>
+        </div>
+        <div class="row mt-5" id="thesis">
+            <div class="col-1 mt-5"></div>
+            <div class="col-4 mt-5 text-center">
+                <div class="display-5 pt-3">Thesis</div>
+            </div>
+            <div class="col-6 mt-5">
+                <p class="lead">
+                    <div class="fs-4">LLMs in a Virtual Reality environment</div>
+                    <p class="lead">
+                        <i>(in-progress)</i> <br>
+                        I am currently working on my thesis which explores the potential applications on LLMs in a Virtual Reality environment. <br>
+                        This work is being conducted at the ELiCIT lab (https://uicelicitlab.com/) at UIC under the guidance of Dr. Nikita Soni (https://nikitasoni.me/).
+                    </p>
+                </p>
+            </div>
+            <div class="col-1 mt-5"></div>
+        </div>
+        <div class="row mt-5" id="professional-xp">
+            <div class="col-1 mt-5"></div>
+            <div class="col-4 mt-5 text-center">
+                <div class="display-5 pt-3">Professional Experience</div>
+            </div>
+            <div class="col-6 mt-5">
+                <p class="lead">
+                    <div class="fs-4">Clevertap, Mumbai, India (<a href="https://clevertap.com/" target="_blank">company website</a>)</div>
+                    <p class="lead">
+                        <b>Senior Software Engineer (Frontend) – Engineering</b> <br>
+                        <i>Jan 2023 - July 2023</i>
+                        <ul class="lead">
+                            <li>
+                                Responsible for R&D, engineering, and planning of a new Segment Builder widget.
+                            </li>
+                            <li>
+                                Responsibility to resolve production and priority bugs.
+                            </li>
+                            <li>
+                                Responsible for acquisition parity projects.
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Clevertap, Mumbai, India</div>
+                    <p class="lead">
+                        <b>Software Engineer (Frontend) – Engineering</b> <br>
+                        <i>June 2021 - Dec 2022</i>
+                        <ul class="lead">
+                            <li>
+                                Responsible for engineering, building, and maintaining core widget like Calendar widget used across the product to enhance user experience. Worked closely with the design team, and senior engineers to integrate the widget across the dashboard.
+                            </li>
+                            <li>
+                                Worked on migration of core features like Campaigns and Journeys to modern tech stack (Vue.JS).
+                            </li>
+                            <li>
+                                Owned integration of automated frontend testing tool called TestCafe. Created documentation, setup guides, onboarding notes, and provided knowledge transfer sessions for the QA team.
+                            </li>
+                            <li>
+                                Built paginated components for smoother and efficient fetching of data thus increasing product performance.
+                            </li>
+                            <li>
+                                Mentored interns and new joinees and closely guided them for smooth onboarding.
+                            </li>
+                            <li>
+                                Awarded Spotlight award for exemplary contributions to the company.
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+            </div>
+            <div class="col-1 mt-5"></div>
+        </div>
+        <div class="row mt-5" id="internships">
+            <div class="col-1 mt-5"></div>
+            <div class="col-4 mt-5 text-center">
+                <div class="display-5 pt-3">Internships and positions of responsibilities</div>
+            </div>
+            <div class="col-6 mt-5">
+                <p class="lead">
+                    <div class="fs-4">Google Summer of Code, Remote (USA)</div>
+                    <b>Open Source Fellow - CaMicroscope</b> <br>
+                    <i>May 2021 - Sep 2021</i>
+                    <p class="lead">
+                        <ul class="lead">
+                            <li>
+                                CaMicroscope is a tool to view, annotate, and analyze biomedical images funded by the NCI/NCIP.
+                            </li>
+                            <li>
+                                Leading development of a Real Time Collaboration System for caMicroscope, a digital pathology slide viewer being used at National Cancer Institute (USA), Food and Drug Administration (USA).
+                            </li>
+                            <li>
+                                Created documentation, integration, and usage guidelines of new features for the community to use.
+                            </li>
+                            <li>
+                                Link to project - <a href="https://camicroscope.org/">caMicroscope</a>
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Avlon GmbH (now Eiora.one), Remote (Germany)</div>
+                    <b>Full Stack Developer Intern</b> <br>
+                    <i>July 2020 - Oct 2020</i>
+                    <p class="lead">
+                        <ul class="lead">
+                            <li>
+                                EIORA architects the all-in-one cloud communications platform.
+                            </li>
+                            <li>
+                                Responsible for entire backend development, major contributions to frontend, database management and cloud services (DevOps)
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Times Professional Limited, Mumbai, India</div>
+                    <b>Data Science Intern</b> <br>
+                    <i>Nov 2019 - Jan 2020</i>
+                    <p class="lead">
+                        <ul class="lead">
+                            <li>
+                                <a href="https://timespro.com/" target="_blank">Times Professional</a> is an education initiative by The Times of India Group to revolutionize professional education.
+                            </li>
+                            <li>
+                                Developed a Recommendation Engine and chatbot for external as well as internal clients.
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">VP Confluent ENI LLC, Thane, India</div>
+                    <b>Software Development Intern</b> <br>
+                    <i>July 2019 - Sep 2019</i>
+                    <p class="lead">
+                        <ul class="lead">
+                            <li>
+                                Developed and managed the entire frontend for funds management portal for <a href="https://www.mahadiscom.in/en/home/" target="_blank">Mahavitaran</a> (a Government of Maharashtra Body).
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Hyfunn, Mumbai, India</div>
+                    <b>Software Developer</b> <br>
+                    <i>Dec 2018 - June 2019</i>
+                    <p class="lead">
+                        <ul class="lead">
+                            <li>
+                                Hyfunn is a startup building a social platform for highschool, and university students.
+                            </li>
+                            <li>
+                                Responsible for development over the entire stack. Lead development with direct reporting to CTO.
+                            </li>
+                            <li>
+                                Part of the founding team members of the startup.
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">ACM VIT Student Chapter</div>
+                    <b>Web Development Head</b> <br>
+                    <i>Aug 2018 - Aug 2019</i>
+                    <p class="lead">
+                        <ul class="lead">
+                            <li>
+                                Responsible for the presence of the chapter over the Internet and development of the website <a href="http://acm.vit.edu.in/" target="_blank">http://acm.vit.edu.in/</a>.
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+            </div>
+            <div class="col-1 mt-5"></div>
+        </div>
+        <div class="row mt-5" id="projects-papers">
+            <div class="col-1 mt-5"></div>
+            <div class="col-4 mt-5 text-center">
+                <div class="display-5 pt-3">Projects and Papers</div>
+            </div>
+            <div class="col-6 mt-5">
+                <p class="lead">
+                    <div class="fs-4">Automated User Interface Generation using Generative Adversarial Networks</div>
+                    <p class="lead">
+                        <ul class="lead">
+                            <li>
+                                The project generates UI mockups based on user requirements fetched through a simple and interactive questionnaire.
+                            </li>
+                            <li>
+                                Led the team and responsible for the model design, implementation of backend and database, and building of post-login frontend user interface.
+                            </li>
+                            <li>
+                                Technologies used: Tensorflow/Python/Google Collab (for model), NodeJS (backend), MongoDB (database), ReactJS, TypeScript (Frontend)
+                            </li>
+                            <li>
+                                Co-authored and published a paper on the same in <a href="https://www.ijcaonline.org/archives/volume174/number31/31875-31875-2021921246/">International Journal of Computer Applications in April 2021, Volume 174 (31), ISBN: 973-93-80901-79-4</a>
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Tree Map</div>
+                    <p class="lead">
+                        <ul class="lead">
+                            <li>
+                                The project aims to know the various trees and plants around us and how they could benefit us. Based on public dataset and public knowledge sourcing.
+                            </li>
+                            <li>
+                                Ability to login/register users, add trees, view trees.
+                            </li>
+                            <li>
+                                Technologies used: NodeJS (backend), MongoDB (database), ReactJS (Frontend), OpenStreetMap.
+                            </li>
+                            <li>
+                                Project repository - <a href="https://github.com/Vedant1202/treemap" target="_blank">Tree map - github</a>
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Automated User Interface Generation using Generative Adversarial Networks</div>
+                    <p class="lead">
+                        <ul class="lead">
+                            <li>
+                                The project generates UI mockups based on user requirements fetched through a simple and interactive questionnaire.
+                            </li>
+                            <li>
+                                Led the team and responsible for the model design, implementation of backend and database, and building of post-login frontend user interface.
+                            </li>
+                            <li>
+                                Technologies used: Tensorflow/Python/Google Collab (for model), NodeJS (backend), MongoDB (database), ReactJS, TypeScript (Frontend)
+                            </li>
+                            <li>
+                                Co-authored and published a paper on the same in <a href="https://www.ijcaonline.org/archives/volume174/number31/31875-31875-2021921246/">International Journal of Computer Applications in April 2021, Volume 174 (31), ISBN: 973-93-80901-79-4</a>
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Smart Stick for Blind people</div>
+                    <p class="lead">
+                        <ul class="lead">
+                            <li>
+                                The project aims to empower the blind people to be more independent and aware while navigating their surroundings.
+                            </li>
+                            <li>
+                                The stick has a camera and ultrasonic sensors. The ultrasonic sensors alert the user of any obstacles, ditches in their path. The camera takes in visual input and recognizes the scene and alerts the user of the same. User is alerted through a wired or wireless headset.
+                            </li>
+                            <li>
+                                Technologies used: Raspberry Pi, Pi camera, Ultrasonic sensors, Python programming language, Computer vision.
+                            </li>
+                            <li>
+                                Co-authored and wrote a paper on the same and presented a poster in the annual technical project competition in the institute.
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+                <p class="lead mt-4">
+                    <div class="fs-4">Quadcopter Drone</div>
+                    <p class="lead">
+                        <ul class="lead">
+                            <li>
+                                Built and led a team to create a quadcopter drone in my fresher year.
+                            </li>
+                            <li>
+                                Fully functional, flight capable quadcopter drone capable of surveillance, delivery, and entertainment.
+                            </li>
+                            <li>
+                                Demonstrated the project in front of the Head of Department, faculties, and peers.
+                            </li>
+                            <li>
+                                Technologies used: Drone body parts, Flight controller, Speed controllers, Brushless motors, LiPo battery, RC transmitter and receiver.
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+            </div>
+            <div class="col-1 mt-5"></div>
+        </div>
+        <hr class="mt-5">
+        <div class="container text-center mb-5">
+            <div class="display-5 pt-3">-- END --</div>
+        </div>
+    </div>
+    <script src="./resources/bootstrap.min.js"></script>
 </body>
+
 </html>
